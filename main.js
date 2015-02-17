@@ -32,8 +32,13 @@ function parse(input){
 		innerContent = ""
 		//start from the next line
 		index++
+		//holds the indent length itself (catches for tabs or spaces.)
+		indentLength = 1
+		if(index < array.length){
+			indentLength = indentLevel(array[index])
+		}
 		while(index < array.length && indentLevel(array[index]) > 0){
-			innerContent += removeIndent(array[index], 1) + "\n"
+			innerContent += removeIndent(array[index], indentLength) + "\n"
 			index++
 		}
 		if(content != ''){
