@@ -1,0 +1,26 @@
+{
+  "name": "indent-outline",
+  "version": "0.0.1",
+  "description": "turns an indented outline document into a Javascript object",
+  "main": "main.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BSteephenson/IndentedDocToArray.git"
+  },
+  "keywords": [
+    "indent",
+    "document",
+    "outline",
+    "jade",
+    "python"
+  ],
+  "author": "Benjamin Steephenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BSteephenson/IndentedDocToArray/issues"
+  },
+  "homepage": "https://github.com/BSteephenson/IndentedDocToArray"
+}

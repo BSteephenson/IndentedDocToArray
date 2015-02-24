@@ -1,6 +1,3 @@
-fs = require('fs')
-
-fileContents = fs.readFileSync('test_file.txt', {encoding : 'utf8'})
 
 function indentLevel(line){
 	index = 0
@@ -49,7 +46,4 @@ function parse(input){
 
 }
 
-
-parsed = parse(fileContents)
-
-console.log(JSON.stringify(parsed))
+module.exports = parse
