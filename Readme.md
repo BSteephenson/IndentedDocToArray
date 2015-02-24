@@ -1,4 +1,4 @@
-#Indented Document to Array
+#Indent Outline
 
 If fileContents were the following
 
@@ -54,3 +54,15 @@ parse(fileContents) yields
    }
 ]
 ```
+
+##How to Use
+
+```
+npm install 
+```
+
+```
+var parser = require('indent-outline')
+myObject = parser(fileContents)
+```
+
