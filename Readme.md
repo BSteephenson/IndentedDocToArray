@@ -58,7 +58,7 @@ parse(fileContents) yields
 ##How to Use
 
 ```
-npm install 
+npm install indent-outline
 ```
 
 ```
